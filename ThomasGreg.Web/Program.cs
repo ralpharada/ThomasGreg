@@ -14,7 +14,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddMvc();
 builder.Services.AddHttpClient("Api", client =>
 {
-    client.BaseAddress = new Uri("https://localhost:7292/api/");
+    client.BaseAddress = new Uri(builder.Configuration.GetSection("ApiSettings:BaseUrl").Value);
 });
 builder.Services.AddScoped<IClienteApiService, ClienteApiService>();
 builder.Services.AddScoped<ITokenService, TokenService>();

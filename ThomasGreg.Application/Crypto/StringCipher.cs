@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace ThomasGreg.Application.Libraries
+namespace ThomasGreg.Application.Crypto
 {
     public static class StringCipher
     {

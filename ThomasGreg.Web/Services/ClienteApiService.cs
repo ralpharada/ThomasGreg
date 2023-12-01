@@ -1,6 +1,5 @@
 ﻿using ThomasGreg.Application.Queries;
 using ThomasGreg.Application.Responses;
-using ThomasGreg.Core.Events;
 using ThomasGreg.Web.Enums;
 using ThomasGreg.Web.Interfaces;
 using ThomasGreg.Web.Responses;

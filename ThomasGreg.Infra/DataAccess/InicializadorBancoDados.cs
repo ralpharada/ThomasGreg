@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ThomasGreg.Infra.Context;
 
-namespace ThomasGreg.Infra.DartaAccess
+namespace ThomasGreg.Infra.DataAccess
 {
     public static class InicializadorBancoDados
     {

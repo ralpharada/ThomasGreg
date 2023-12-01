@@ -11,7 +11,7 @@ using System.Text.Json.Serialization;
 using Microsoft.IdentityModel.Tokens;
 using ThomasGreg.Infra.Context;
 using Microsoft.EntityFrameworkCore;
-using ThomasGreg.Infra.DartaAccess;
+using ThomasGreg.Infra.DataAccess;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.RepositoryMap(builder.Configuration);

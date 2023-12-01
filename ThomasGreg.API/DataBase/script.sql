@@ -6,9 +6,9 @@ CREATE TABLE [dbo].[Clientes](
     [Id] [int] IDENTITY(1,1) NOT NULL,
     [Nome] [varchar](255) NOT NULL,
     [Email] [varchar](100) NOT NULL,
-    [Logotipo] [text] NOT NULL,
+    [Logotipo] [varchar](45) NOT NULL,
     CONSTRAINT [PK_Clientes] PRIMARY KEY CLUSTERED ([Id] ASC)
-) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY];
+) ON [PRIMARY];
 
 -- Criação da tabela Logradouros
 CREATE TABLE [dbo].[Logradouros](

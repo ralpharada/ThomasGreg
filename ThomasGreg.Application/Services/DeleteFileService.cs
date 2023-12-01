@@ -1,4 +1,6 @@
-﻿namespace ThomasGreg.Application.Services
+﻿using ThomasGreg.Application.Contracts;
+
+namespace ThomasGreg.Application.Services
 {
     public static class DeleteFileService
     {
